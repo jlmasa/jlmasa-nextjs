@@ -12,10 +12,10 @@ const Landing = () => {
           <h1 className="text-8xl">A Fullstack Developer</h1>
         </div>
         <h1 className="text-4xl w-[55dvw] text-gray-300 pb-10 text-justify">
-          I'm a Developer located in Laguna/makati and I like to build amazing
-          UI/UX experiences for people. Currently, I'm Focused on developing
-          systems and technologies that will make life easier for peoples as a
-          fullstack developer.
+          I&apos;m a Developer located in Laguna/makati and I like to build
+          amazing UI/UX experiences for people. Currently, I&apos;m Focused on
+          developing systems and technologies that will make life easier for
+          peoples as a fullstack developer.
         </h1>
         <Link href="https://www.linkedin.com/in/johnmasa/">
           <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">

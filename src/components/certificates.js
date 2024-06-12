@@ -23,7 +23,7 @@ const Certificates = () => {
                 CS50 : Introduction to Computer Science
               </h1>
               <h1 className="text-2xl">
-                This is CS50x , Harvard University's introduction to the
+                This is CS50x , Harvard University&apos;s introduction to the
                 intellectual enterprises of computer science and the art of
                 programming for majors and non-majors alike, with or without
                 prior programming experience. An entry-level course taught by
@@ -34,7 +34,8 @@ const Certificates = () => {
                 development. Languages include C, Python, SQL, and JavaScript
                 plus CSS and HTML. Problem sets inspired by real-world domains
                 of biology, cryptography, finance, forensics, and gaming. The
-                on-campus version of CS50x , CS50, is Harvard's largest course.
+                on-campus version of CS50x , CS50, is Harvard&apos;s largest
+                course.
               </h1>
               <h1 className="text-2xl py-10">
                 Students who earn a satisfactory score on 9 problem sets (i.e.,

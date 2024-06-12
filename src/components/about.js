@@ -19,9 +19,9 @@ const About = () => {
           </div>
           <div className="flex flex-col items-start justify-center w-[47dvw]">
             <h1 className="text-3xl">
-              I'm been coding for almost 8 years. I'm currently a fullstack
-              developer who likes on making responsive websites with awesome
-              UI/UX
+              I&apos;m been coding for almost 8 years. I&apos;m currently a
+              fullstack developer who likes on making responsive websites with
+              awesome UI/UX
             </h1>
             <h1 className="text-3xl py-10">
               My prefer weapons of choices when coding are the following:
