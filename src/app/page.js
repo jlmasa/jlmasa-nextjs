@@ -5,11 +5,13 @@ import Education from "@/components/education";
 import School from "@/components/school";
 import Certificates from "@/components/certificates";
 import Projects from "@/components/projects";
+import ParticlesBackground from "@/components/particlesBackground";
 
 export default function Home() {
   return (
     <div>
-      <main className="flex flex-col items-center justify-between bg-slate-900">
+      <main className="flex flex-col items-center justify-between bg-slate-950">
+        <ParticlesBackground />
         <div className="h-screen overflow-y-scroll min-w-screen snap-y snap-mandatory overflow-x-hidden">
           <div className="snap-start relative">
             <Landing />
