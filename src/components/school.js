@@ -18,7 +18,7 @@ const School = () => {
               - Calamba Located in Bucal Calamba Laguna.
             </h1>
             <h1 className="text-2xl text-justify py-5">
-              And here are the courses I've Taken:
+              And here are the courses I&apos;ve Taken:
             </h1>
             <h1 className="text-xl font-bold pt  -5">
               Bachelor of Science in Entertainment and Multimedia Computing
