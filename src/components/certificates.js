@@ -11,7 +11,7 @@ const Certificates = () => {
         <h1 className="text-green-500 text-3xl font-bold">CERTIFICATES</h1>
         <h1 className="text-xl">here are my certificates</h1>
         <div className="flex flex-col items-center justify-center">
-          <div className="grid lg:grid-cols-2 grid-cols-1 min-h-screen">
+          <div className="grid lg:grid-cols-2 grid-cols-1 min-h-screen py-10">
             <div className="flex flex-col items-center justify-center p-14">
               <Image src={cert1} className="rounded-xl" alt="image" />
             </div>
@@ -50,7 +50,7 @@ const Certificates = () => {
               </Link>
             </div>
           </div>
-          <div className="grid lg:grid-cols-2 grid-cols-1 min-h-screen">
+          <div className="grid lg:grid-cols-2 grid-cols-1 min-h-screen py-10">
             <div className="flex flex-col items-center justify-center px-20">
               <h1 className="text-3xl font-bold text-sky-400">
                 PHILIPPINE CREATIVE IMAGING
