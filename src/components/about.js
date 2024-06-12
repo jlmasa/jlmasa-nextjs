@@ -19,12 +19,12 @@ const About = () => {
           </div>
           <div className="flex flex-col items-center lg:items-start justify-center px-14 lg:w-[47dvw]">
             <h1 className="text-3xl">
-              I&apos;m been coding for almost 8 years. I&apos;m currently a
+              I&apos;ve been coding for almost 8 years. I&apos;m currently a
               fullstack developer who likes on making responsive websites with
-              awesome UI/UX
+              awesome UI/UX.
             </h1>
             <h1 className="text-3xl py-10">
-              My prefer weapons of choices when coding are the following:
+              My preferred weapons of choices when coding are the following:
             </h1>
             <div className="flex flex-col items-center justify-center w-full pt-10">
               <div className="grid grid-cols-2 gap-14">

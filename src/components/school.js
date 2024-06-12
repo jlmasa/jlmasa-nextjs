@@ -14,11 +14,11 @@ const School = () => {
               Colegio de San Juan de Letran - Calamba
             </h1>
             <h1 className="text-2xl text-justify py-5">
-              I&apos;ve started my college day in Colegio de San Juan de Letran
-              - Calamba Located in Bucal Calamba Laguna.
+              I studied at Colegio de San Juan de Letran-Calamba Located at
+              Bucal Calamba Laguna.
             </h1>
             <h1 className="text-2xl text-justify py-5">
-              And here are the courses I&apos;ve Taken:
+              Listen below were the courses I took:
             </h1>
             <h1 className="text-xl font-bold pt  -5">
               Bachelor of Science in Entertainment and Multimedia Computing
