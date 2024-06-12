@@ -16,7 +16,7 @@ const Projects = () => {
       <div className="flex flex-col items-center justify-center">
         <h1 className="text-sky-500 text-3xl font-bold">PROJECTS</h1>
         <div className="flex flex-col items-center justify-center">
-          <div className="grid grid-cols-2">
+          <div className="grid lg:grid-cols-2 grid-cols-1">
             <div className="flex flex-col items-start justify-center px-20">
               <h1 className="text-3xl py-5 text-green-400">
                 CAMPUS MINISTRY SERVICES WEB APPLICATION
@@ -59,7 +59,7 @@ const Projects = () => {
             </div>
           </div>
 
-          <div className="grid grid-cols-2">
+          <div className="grid lg:grid-cols-2 grid-cols-1">
             <div className="flex flex-col items-center justify-center p-14">
               <Image src={project1} className="rounded-xl" alt="image" />
             </div>
@@ -83,7 +83,7 @@ const Projects = () => {
             </div>
           </div>
 
-          <div className="grid grid-cols-2">
+          <div className="grid lg:grid-cols-2 grid-cols-1">
             <div className="flex flex-col items-start justify-center px-20">
               <h1 className="text-3xl py-5 text-red-400">
                 CAMPUS MINISTRY SERVICES MOBILE APPLICATION
@@ -114,7 +114,7 @@ const Projects = () => {
             </div>
           </div>
 
-          <div className="grid grid-cols-2">
+          <div className="grid lg:grid-cols-2 grid-cols-1">
             <div className="flex flex-col items-center justify-center p-14">
               <Image src={project4} className="rounded-xl" alt="image" />
             </div>

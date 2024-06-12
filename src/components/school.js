@@ -7,7 +7,7 @@ const School = () => {
   return (
     <section>
       <div className="flex items-center justify-center min-h-screen">
-        <div className="grid grid-cols-2">
+        <div className="grid lg:grid-cols-2 grid-cols-1">
           <div className="flex flex-col items-start justify-center px-20">
             <h1 className="text-3xl py-5 text-green-400">EDUCATION</h1>
             <h1 className="text-5xl font-bold ">

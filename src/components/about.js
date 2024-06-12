@@ -12,12 +12,12 @@ import { TbBrandMongodb } from "react-icons/tb";
 const About = () => {
   return (
     <section>
-      <div className="flex flex-col items-center justify-center min-h-screen">
-        <div className="grid grid-cols-2">
+      <div className="flex flex-col items-center justify-center lg:min-h-screen">
+        <div className="grid lg:grid-cols-2 grid-cols-1">
           <div className="flex flex-col items-center justify-center p-20">
             <Image src={face1} className="rounded-xl" alt="image" />
           </div>
-          <div className="flex flex-col items-start justify-center w-[47dvw]">
+          <div className="flex flex-col items-center lg:items-start justify-center px-14 lg:w-[47dvw]">
             <h1 className="text-3xl">
               I&apos;m been coding for almost 8 years. I&apos;m currently a
               fullstack developer who likes on making responsive websites with
