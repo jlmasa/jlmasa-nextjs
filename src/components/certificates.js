@@ -12,8 +12,12 @@ const Certificates = () => {
         <h1 className="text-xl">here are my certificates</h1>
         <div className="flex flex-col items-center justify-center">
           <div className="grid lg:grid-cols-2 grid-cols-1 min-h-screen py-10">
-            <div className="flex flex-col items-center justify-center p-14">
-              <Image src={cert1} className="rounded-xl" alt="image" />
+            <div className="flex flex-col items-center justify-center  dark:bg-transparent">
+              <Image
+                src={cert1}
+                className="rounded-xl shadow-2xl"
+                alt="image"
+              />
             </div>
             <div className="flex flex-col items-center justify-center px-20">
               <h1 className="text-3xl font-bold text-amber-400 py-5">
@@ -76,8 +80,12 @@ const Certificates = () => {
                 </button>
               </Link>
             </div>
-            <div className="flex flex-col items-center justify-center p-14">
-              <Image src={cert2} className="rounded-xl" alt="image" />
+            <div className="flex flex-col items-center justify-center  dark:bg-transparent">
+              <Image
+                src={cert2}
+                className="rounded-xl shadow-2xl"
+                alt="image"
+              />
             </div>
           </div>
         </div>
