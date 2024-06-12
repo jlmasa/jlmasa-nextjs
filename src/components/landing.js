@@ -1,10 +1,11 @@
+"use client";
 import Link from "next/link";
 import React from "react";
 
 const Landing = () => {
   return (
     <section>
-      <div className="flex flex-col items-center justify-start min-h-screen">
+      <div className="flex flex-col items-center justify-center min-h-screen">
         <h1 className="text-white text-5xl pb-10">Hello!</h1>
         <div className="bg-gradient-to-r from-blue-500 to-red-500 bg-clip-text text-transparent pb-10">
           <h1 className="text-8xl">I am JL masa,</h1>
@@ -17,7 +18,7 @@ const Landing = () => {
           fullstack developer.
         </h1>
         <Link href="https://www.linkedin.com/in/johnmasa/">
-          <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
+          <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
             Do you want to work with me?
           </button>
         </Link>
