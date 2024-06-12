@@ -105,7 +105,7 @@ const ParticlesBackground = () => {
         value: 80,
       },
       opacity: {
-        value: 1,
+        value: 0.3,
       },
       shape: {
         type: "circle",

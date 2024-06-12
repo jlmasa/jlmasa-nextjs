@@ -3,7 +3,7 @@ import Image from "next/image";
 import React from "react";
 import face1 from "../../public/picture.jpg";
 import { FaReact } from "react-icons/fa";
-import { RiNextjsLine } from "react-icons/ri";
+import { RiNextjsLine, RiNodejsFill } from "react-icons/ri";
 import { FaPhp } from "react-icons/fa";
 import { FaLaravel } from "react-icons/fa";
 import { RiTailwindCssFill } from "react-icons/ri";
@@ -34,14 +34,15 @@ const About = () => {
                     <RiNextjsLine className="w-14 h-14" />
                   </div>
 
-                  <h1 className="text-2xl">ReactJS/NextJS</h1>
+                  <h1 className="text-2xl">ReactJS / NextJS</h1>
                 </div>
                 <div className="flex flex-col items-center justify-center">
                   <div className="flex flex-row items-center justify-center gap-5">
                     <FaPhp className="w-14 h-14 text-violet-500" />
                     <FaLaravel className="w-14 h-14 text-red-500" />
+                    <RiNodejsFill className="w-14 h-14 text-green-500" />
                   </div>
-                  <h1 className="text-2xl">PHP/Laravel</h1>
+                  <h1 className="text-2xl">PHP / Laravel / NodeJS</h1>
                 </div>
                 <div className="flex flex-col items-center justify-center">
                   <div className="flex flex-row items-center justify-center gap-5">
@@ -51,10 +52,10 @@ const About = () => {
                 </div>
                 <div className="flex flex-col items-center justify-center">
                   <div className="flex flex-row items-center justify-center gap-5">
-                    <SiMysql className="w-14 h-14" />
-                    <TbBrandMongodb className="w-14 h-14" />
+                    <SiMysql className="w-14 h-14 text-amber-600" />
+                    <TbBrandMongodb className="w-14 h-14 text-green-600" />
                   </div>
-                  <h1 className="text-2xl">MySQL/Monggo</h1>
+                  <h1 className="text-2xl">MySQL / Monggo</h1>
                 </div>
               </div>
             </div>
