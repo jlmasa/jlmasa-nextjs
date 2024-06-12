@@ -30,20 +30,20 @@ export default function Home() {
           </div>
           <div className="snap-start relative">
             <Projects />
+            <footer>
+              <span class="block text-sm text-gray-500 sm:text-center dark:text-gray-400">
+                © 2024{" "}
+                <a
+                  href="https://www.linkedin.com/in/johnmasa/"
+                  class="hover:underline"
+                >
+                  John Lorenz Eldon R Masa
+                </a>
+                . All Rights Reserved.
+              </span>
+            </footer>
           </div>
         </div>
-        <footer>
-          <span class="block text-sm text-gray-500 sm:text-center dark:text-gray-400">
-            © 2024{" "}
-            <a
-              href="https://www.linkedin.com/in/johnmasa/"
-              class="hover:underline"
-            >
-              John Lorenz Eldon R Masa
-            </a>
-            . All Rights Reserved.
-          </span>
-        </footer>
       </main>
     </div>
   );
