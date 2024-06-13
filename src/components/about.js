@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import React from "react";
-import face1 from "../../public/picture.jpg";
+import face1 from "../../public/picture1.jpg";
 import { FaReact } from "react-icons/fa";
 import { RiNextjsLine, RiNodejsFill } from "react-icons/ri";
 import { FaPhp } from "react-icons/fa";
