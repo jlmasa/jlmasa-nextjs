@@ -8,8 +8,7 @@ const Certificates = () => {
   return (
     <section>
       <div className="flex flex-col items-center justify-center">
-        <h1 className="text-green-500 text-3xl font-bold">CERTIFICATES</h1>
-        <h1 className="text-xl">here are my certificates</h1>
+        <h1 className="text-green-500 text-3xl">CERTIFICATES</h1>
         <div className="flex flex-col items-center justify-center">
           <div className="grid lg:grid-cols-2 grid-cols-1 min-h-screen py-10">
             <div className="flex flex-col items-center justify-center  dark:bg-transparent">
