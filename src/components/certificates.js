@@ -53,7 +53,7 @@ const Certificates = () => {
                 what&apos;s new. Email the course&apos;s heads at
                 heads@cs50.harvard.edu with questions.
               </h1>
-              <h1 className="text-2xl py-10">
+              <h1 className="text-2xl py-10 text-justify">
                 Students who earn a satisfactory score on 9 problem sets (i.e.,
                 programming assignments) and a final project are eligible for a
                 certificate. This is a self-paced course–you may take CS50x on
