@@ -40,11 +40,11 @@ const Certificates = () => {
                 teaches you how to program fundamentally and how to teach
                 yourself new languages ultimately. The course starts with a
                 traditional but omnipresent language called C that underlies
-                today&apos;s newer languages, via which you'll learn not only
-                about functions, variables, conditionals, loops, and more, but
-                also about how computers themselves work underneath the hood,
-                memory and all. The course then transitions to Python, a
-                higher-level language that you'll understand all the more
+                today&apos;s newer languages, via which you&apos;ll learn not
+                only about functions, variables, conditionals, loops, and more,
+                but also about how computers themselves work underneath the
+                hood, memory and all. The course then transitions to Python, a
+                higher-level language that you&apos;ll understand all the more
                 because of C. Toward term&apos;s end, the course introduces SQL,
                 via which you can store data in databases, along with HTML, CSS,
                 and JavaScript, via which you can create web and mobile apps
