@@ -26,19 +26,32 @@ const Certificates = () => {
                 CS50 : Introduction to Computer Science
               </h1>
               <h1 className="text-2xl">
-                This is CS50x , Harvard University&apos;s introduction to the
+                This is CS50, Harvard University&apos;s introduction to the
                 intellectual enterprises of computer science and the art of
-                programming for majors and non-majors alike, with or without
-                prior programming experience. An entry-level course taught by
-                David J. Malan, CS50x teaches students how to think
-                algorithmically and solve problems efficiently. Topics include
-                abstraction, algorithms, data structures, encapsulation,
-                resource management, security, software engineering, and web
-                development. Languages include C, Python, SQL, and JavaScript
-                plus CSS and HTML. Problem sets inspired by real-world domains
-                of biology, cryptography, finance, forensics, and gaming. The
-                on-campus version of CS50x , CS50, is Harvard&apos;s largest
-                course.
+                programming, for concentrators and non-concentrators alike, with
+                or without prior programming experience. (More than half of CS50
+                students have never taken CS before!) This course teaches you
+                how to solve problems, both with and without code, with an
+                emphasis on correctness, design, and style. Topics include
+                computational thinking, abstraction, algorithms, data
+                structures, and computer science more generally. Problem sets
+                inspired by the arts, humanities, social sciences, and sciences.
+                More than teach you how to program in one language, this course
+                teaches you how to program fundamentally and how to teach
+                yourself new languages ultimately. The course starts with a
+                traditional but omnipresent language called C that underlies
+                today&apos;s newer languages, via which you'll learn not only
+                about functions, variables, conditionals, loops, and more, but
+                also about how computers themselves work underneath the hood,
+                memory and all. The course then transitions to Python, a
+                higher-level language that you'll understand all the more
+                because of C. Toward term&apos;s end, the course introduces SQL,
+                via which you can store data in databases, along with HTML, CSS,
+                and JavaScript, via which you can create web and mobile apps
+                alike. Course culminates in a final project. See
+                https://cs50.harvard.edu/college for advice, FAQs, syllabus, and
+                what&apos;s new. Email the course&apos;s heads at
+                heads@cs50.harvard.edu with questions.
               </h1>
               <h1 className="text-2xl py-10">
                 Students who earn a satisfactory score on 9 problem sets (i.e.,
