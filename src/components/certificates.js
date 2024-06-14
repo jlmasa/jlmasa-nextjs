@@ -25,7 +25,7 @@ const Certificates = () => {
               <h1 className="text-2xl py-5">
                 CS50 : Introduction to Computer Science
               </h1>
-              <h1 className="text-2xl text-center">
+              <h1 className="text-2xl text-justify">
                 This is CS50, Harvard University&apos;s introduction to the
                 intellectual enterprises of computer science and the art of
                 programming, for concentrators and non-concentrators alike, with
@@ -72,7 +72,7 @@ const Certificates = () => {
                 PHILIPPINE CREATIVE IMAGING
               </h1>
               <h1 className="text-2xl py-5">Premiere Pro Essentials</h1>
-              <h1 className="text-2xl py-10 text-center">
+              <h1 className="text-2xl py-10 text-justify">
                 This hands-on computer workshop will introduce you to digital
                 video imaging and editing with Adobe Premiere. Throughout this
                 intensive three-day course, you will learn the interface of
