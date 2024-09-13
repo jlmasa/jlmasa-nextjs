@@ -21,7 +21,7 @@ const Projects = () => {
               <h1 className="text-3xl py-5 text-green-400">
                 CAMPUS MINISTRY SERVICES WEB APPLICATION
               </h1>
-              <h1 className="text-2xl text-justify py-5">
+              <h1 className="text-2xl lg:text-justify text-start py-5">
                 A software that handles all the evaluation process through a
                 digital approach.
               </h1>
@@ -67,7 +67,7 @@ const Projects = () => {
               <h1 className="text-3xl py-5 text-sky-400">
                 CASA PADRID ONLINE RESERVATION SYSTEM
               </h1>
-              <h1 className="text-2xl text-justify py-5">
+              <h1 className="text-2xl lg:text-justify text-start py-5">
                 Software that handles orders for catering services.
               </h1>
               <div className="flex flex-col items-start justify-center w-full pt-10">
@@ -88,7 +88,7 @@ const Projects = () => {
               <h1 className="text-3xl py-5 text-red-400">
                 CAMPUS MINISTRY SERVICES MOBILE APPLICATION
               </h1>
-              <h1 className="text-2xl text-justify py-5">
+              <h1 className="text-2xl lg:text-justify text-start py-5">
                 A software that send requests and evaluation forms.
               </h1>
               <div className="flex flex-col items-start justify-center w-full pt-10">
@@ -120,7 +120,7 @@ const Projects = () => {
             </div>
             <div className="flex flex-col items-start justify-center px-20">
               <h1 className="text-3xl py-5 text-amber-400">NETFLIX CLONE</h1>
-              <h1 className="text-2xl text-justify py-5">
+              <h1 className="text-2xl lg:text-justify text-start py-5">
                 A clone of famous web application netflix.
               </h1>
               <div className="flex flex-col items-start justify-center w-full pt-10">

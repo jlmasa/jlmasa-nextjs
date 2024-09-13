@@ -11,7 +11,7 @@ const Education = () => {
           <h1 className="text-3xl font-bold ">
             I&apos;m John Lorenz Eldon R. Masa
           </h1>
-          <h1 className="text-2xl py-10 w-[60vw] text-center">
+          <h1 className="lg:text-2xl text-base py-10 lg:w-[60vw] w-[80vw] text-center">
             I&apos;m a Graduate of Bachelor of Science in Information
             Technology. And ever since I first got my own computer unit at the
             age of 8, I was able to Enjoy a lot of things and It came to a point

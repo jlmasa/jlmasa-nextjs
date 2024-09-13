@@ -11,7 +11,7 @@ const Certificates = () => {
         <h1 className="text-green-500 text-3xl">CERTIFICATES</h1>
         <div className="flex flex-col items-center justify-center">
           <div className="grid lg:grid-cols-2 grid-cols-1 min-h-screen py-10">
-            <div className="flex flex-col items-center justify-center  dark:bg-transparent">
+            <div className="flex flex-col items-center justify-center  dark:bg-transparent lg:px-0 md:px-20 px-14 ">
               <Image
                 src={cert1}
                 className="rounded-xl shadow-2xl"
@@ -22,10 +22,10 @@ const Certificates = () => {
               <h1 className="text-3xl font-bold text-amber-400 py-5">
                 HARVARD UNIVERSITY
               </h1>
-              <h1 className="text-2xl py-5">
+              <h1 className="lg:text-2xl text-xl py-5">
                 CS50 : Introduction to Computer Science
               </h1>
-              <h1 className="text-2xl text-justify">
+              <h1 className="lg:text-2xl text-base lg:text-justify text-start">
                 This is CS50, Harvard University&apos;s introduction to the
                 intellectual enterprises of computer science and the art of
                 programming, for concentrators and non-concentrators alike, with
@@ -53,7 +53,7 @@ const Certificates = () => {
                 what&apos;s new. Email the course&apos;s heads at
                 heads@cs50.harvard.edu with questions.
               </h1>
-              <h1 className="text-2xl py-10 text-justify">
+              <h1 className="lg:text-2xl text-base lg:text-justify text-start py-10">
                 Students who earn a satisfactory score on 9 problem sets (i.e.,
                 programming assignments) and a final project are eligible for a
                 certificate. This is a self-paced course–you may take CS50x on
@@ -71,8 +71,10 @@ const Certificates = () => {
               <h1 className="text-3xl font-bold text-sky-400">
                 PHILIPPINE CREATIVE IMAGING
               </h1>
-              <h1 className="text-2xl py-5">Premiere Pro Essentials</h1>
-              <h1 className="text-2xl py-10 text-justify">
+              <h1 className="lg:text-2xl text-xl py-5">
+                Premiere Pro Essentials
+              </h1>
+              <h1 className="lg:text-2xl text-base lg:text-justify text-start py-10">
                 This hands-on computer workshop will introduce you to digital
                 video imaging and editing with Adobe Premiere. Throughout this
                 intensive three-day course, you will learn the interface of
@@ -92,7 +94,7 @@ const Certificates = () => {
                 </button>
               </Link>
             </div>
-            <div className="flex flex-col items-center justify-center  dark:bg-transparent">
+            <div className="flex flex-col items-center justify-center  dark:bg-transparent lg:px-0 md:px-20 px-14 pt-5">
               <Image
                 src={cert2}
                 className="rounded-xl shadow-2xl"

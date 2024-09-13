@@ -18,44 +18,52 @@ const About = () => {
             <Image src={face1} className="rounded-xl" alt="image" />
           </div>
           <div className="flex flex-col items-center lg:items-start justify-center px-14 lg:w-[47dvw]">
-            <h1 className="text-3xl">
+            <h1 className="lg:text-3xl md:text-2xl">
               I&apos;ve been coding for almost 8 years. I&apos;m currently a
               fullstack developer who likes on making responsive websites with
               awesome UI/UX.
             </h1>
-            <h1 className="text-3xl py-10">
+            <h1 className="lg:text-3xl md:text-2xl py-10">
               My preferred weapons of choices when coding are the following:
             </h1>
             <div className="flex flex-col items-center justify-center w-full pt-10">
               <div className="grid grid-cols-2 gap-14">
                 <div className="flex flex-col items-center justify-center">
                   <div className="flex flex-row items-center justify-center gap-5">
-                    <FaReact className="w-14 h-14 text-blue-500" />
-                    <RiNextjsLine className="w-14 h-14" />
+                    <FaReact className="lg:w-14 lg:h-14 md:w-10 md:h-10 h-11 w-11 text-blue-500" />
+                    <RiNextjsLine className="lg:w-14 lg:h-14 md:w-10 md:h-10 h-11 w-11" />
                   </div>
 
-                  <h1 className="text-2xl">ReactJS / NextJS</h1>
+                  <h1 className="lg:text-2xl md:text-lg text-base">
+                    ReactJS / NextJS
+                  </h1>
                 </div>
                 <div className="flex flex-col items-center justify-center">
                   <div className="flex flex-row items-center justify-center gap-5">
-                    <FaPhp className="w-14 h-14 text-violet-500" />
-                    <FaLaravel className="w-14 h-14 text-red-500" />
-                    <RiNodejsFill className="w-14 h-14 text-green-500" />
+                    <FaPhp className="lg:w-14 lg:h-14 md:w-10 md:h-10 h-11 w-11 text-violet-500" />
+                    <FaLaravel className="lg:w-14 lg:h-14 md:w-10 md:h-10 h-11 w-11 text-red-500" />
+                    <RiNodejsFill className="lg:w-14 lg:h-14 md:w-10 md:h-10 h-11 w-11 text-green-500" />
                   </div>
-                  <h1 className="text-2xl">PHP / Laravel / NodeJS</h1>
+                  <h1 className="lg:text-2xl md:text-lg text-base">
+                    PHP / Laravel / NodeJS
+                  </h1>
                 </div>
                 <div className="flex flex-col items-center justify-center">
                   <div className="flex flex-row items-center justify-center gap-5">
-                    <RiTailwindCssFill className="w-14 h-14  text-blue-500" />
+                    <RiTailwindCssFill className="lg:w-14 lg:h-14 md:w-10 md:h-10 h-11 w-11  text-blue-500" />
                   </div>
-                  <h1 className="text-2xl">TailwindCSS</h1>
+                  <h1 className="lg:text-2xl md:text-lg text-base">
+                    TailwindCSS
+                  </h1>
                 </div>
                 <div className="flex flex-col items-center justify-center">
                   <div className="flex flex-row items-center justify-center gap-5">
-                    <SiMysql className="w-14 h-14 text-amber-600" />
-                    <TbBrandMongodb className="w-14 h-14 text-green-600" />
+                    <SiMysql className="lg:w-14 lg:h-14 md:w-10 md:h-10 h-11 w-11 text-amber-600" />
+                    <TbBrandMongodb className="lg:w-14 lg:h-14 md:w-10 md:h-10 h-11 w-11 text-green-600" />
                   </div>
-                  <h1 className="text-2xl">MySQL / Monggo</h1>
+                  <h1 className="lg:text-2xl md:text-lg text-base">
+                    MySQL / Monggo
+                  </h1>
                 </div>
               </div>
             </div>
