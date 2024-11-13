@@ -14,8 +14,12 @@ const About = () => {
     <section>
       <div className="flex flex-col items-center justify-center lg:min-h-screen">
         <div className="grid lg:grid-cols-2 grid-cols-1">
-          <div className="flex flex-col items-center justify-center p-20">
-            <Image src={face1} className="rounded-xl" alt="image" />
+          <div className="flex flex-col items-center justify-center p-3 lg:p-20 ">
+            <Image
+              src={face1}
+              className="rounded-xl scale-75 lg:scale-100"
+              alt="image"
+            />
           </div>
           <div className="flex flex-col items-center lg:items-start justify-center px-14 lg:w-[47dvw]">
             <h1 className="lg:text-3xl md:text-2xl text-center">
@@ -23,7 +27,7 @@ const About = () => {
               fullstack developer who likes on making responsive websites with
               awesome UI/UX.
             </h1>
-            <h1 className="lg:text-3xl md:text-2xl py-10 text-center">
+            <h1 className="lg:text-3xl md:text-2xl py-5 text-center">
               My preferred weapons of choices when coding are the following:
             </h1>
             <div className="flex flex-col items-center justify-center w-full pt-10">

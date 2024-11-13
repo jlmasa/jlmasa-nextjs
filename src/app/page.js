@@ -16,7 +16,7 @@ export default function Home() {
         <ParticlesBackground />
         <div className="h-screen overflow-y-scroll min-w-screen snap-y snap-mandatory overflow-x-hidden">
           <div className="snap-start relative">
-            <nav className="px-10 py-5 h-3 mb-12 flex justify-between relative ">
+            <nav className="px-20 lg:px-11 py-5 h-3 mb-12 flex justify-between relative">
               <h1 className="font-burtons text-xl z-50 dark:text-gray-200">
                 John Masa
               </h1>
