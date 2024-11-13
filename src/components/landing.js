@@ -11,7 +11,7 @@ const Landing = () => {
           <h1 className="lg:text-8xl text-5xl">I am JL masa,</h1>
           <h1 className="lg:text-8xl text-5xl">A Fullstack Developer</h1>
         </div>
-        <h1 className="lg:text-4xl md:text-3xl px-5 lg:px-20 md:px-9 lg:w-[55dvw] dark:text-gray-300 text-black pb-10 lg:text-justify md:text-start">
+        <h1 className="lg:text-4xl md:text-3xl px-5 lg:px-20 md:px-9 lg:w-[55dvw] dark:text-gray-300 text-black pb-10 lg:text-center md:text-start">
           I am a Developer located in Laguna/makati. I like to build amazing
           UI/UX experience for people. Currently, I&apos;m more focus on
           developing systems and technologies that will make life easier for
