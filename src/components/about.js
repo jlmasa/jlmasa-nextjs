@@ -18,12 +18,12 @@ const About = () => {
             <Image src={face1} className="rounded-xl" alt="image" />
           </div>
           <div className="flex flex-col items-center lg:items-start justify-center px-14 lg:w-[47dvw]">
-            <h1 className="lg:text-3xl md:text-2xl">
+            <h1 className="lg:text-3xl md:text-2xl text-center">
               I&apos;ve been coding for almost 8 years. I&apos;m currently a
               fullstack developer who likes on making responsive websites with
               awesome UI/UX.
             </h1>
-            <h1 className="lg:text-3xl md:text-2xl py-10">
+            <h1 className="lg:text-3xl md:text-2xl py-10 text-center">
               My preferred weapons of choices when coding are the following:
             </h1>
             <div className="flex flex-col items-center justify-center w-full pt-10">
