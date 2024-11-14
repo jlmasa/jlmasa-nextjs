@@ -9,7 +9,10 @@ const School = () => {
       <div className="flex items-center justify-center min-h-screen">
         <div className="grid lg:grid-cols-2 grid-cols-1">
           <div className="flex flex-col items-start justify-center px-20">
-            <h1 className="text-3xl py-5 text-green-400">EDUCATION</h1>
+            <strong>
+              <h1 className="text-3xl py-5 text-green-400">EDUCATION</h1>
+            </strong>
+
             <h1 className="lg:text-5xl text-2xl font-bold ">
               Colegio de San Juan de Letran - Calamba
             </h1>

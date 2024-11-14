@@ -14,13 +14,19 @@ const Projects = () => {
   return (
     <section>
       <div className="flex flex-col items-center justify-center">
-        <h1 className="text-sky-500 text-3xl font-bold">PROJECTS</h1>
+        <strong>
+          <h1 className="text-green-500 text-3xl pt-5">PROJECTS</h1>
+        </strong>
         <div className="flex flex-col items-center justify-center">
           <div className="grid lg:grid-cols-2 grid-cols-1">
             <div className="flex flex-col items-start justify-center px-20">
-              <h1 className="text-3xl py-5 text-green-400">
-                CAMPUS MINISTRY SERVICES WEB APPLICATION
-              </h1>
+              <div className="bg-gradient-to-r from-blue-500 to-red-500 bg-clip-text text-transparent text-center">
+                <strong>
+                  <h1 className="text-3xl py-5">
+                    CAMPUS MINISTRY SERVICES WEB APPLICATION
+                  </h1>
+                </strong>
+              </div>
               <h1 className="text-2xl lg:text-justify text-start py-5">
                 A software that handles all the evaluation process through a
                 digital approach.
@@ -64,9 +70,13 @@ const Projects = () => {
               <Image src={project1} className="rounded-xl" alt="image" />
             </div>
             <div className="flex flex-col items-start justify-center px-20">
-              <h1 className="text-3xl py-5 text-sky-400">
-                CASA PADRID ONLINE RESERVATION SYSTEM
-              </h1>
+              <div className="bg-gradient-to-r from-blue-500 to-red-500 bg-clip-text text-transparent text-center">
+                <strong>
+                  <h1 className="text-3xl py-5">
+                    CASA PADRID ONLINE RESERVATION SYSTEM
+                  </h1>
+                </strong>
+              </div>
               <h1 className="text-2xl lg:text-justify text-start py-5">
                 Software that handles orders for catering services.
               </h1>
@@ -85,9 +95,13 @@ const Projects = () => {
 
           <div className="grid lg:grid-cols-2 grid-cols-1">
             <div className="flex flex-col items-start justify-center px-20">
-              <h1 className="text-3xl py-5 text-red-400">
-                CAMPUS MINISTRY SERVICES MOBILE APPLICATION
-              </h1>
+              <div className="bg-gradient-to-r from-blue-500 to-red-500 bg-clip-text text-transparent text-center">
+                <strong>
+                  <h1 className="text-3xl py-5">
+                    CAMPUS MINISTRY SERVICES MOBILE APPLICATION
+                  </h1>
+                </strong>
+              </div>
               <h1 className="text-2xl lg:text-justify text-start py-5">
                 A software that send requests and evaluation forms.
               </h1>
@@ -119,7 +133,12 @@ const Projects = () => {
               <Image src={project4} className="rounded-xl" alt="image" />
             </div>
             <div className="flex flex-col items-start justify-center px-20">
-              <h1 className="text-3xl py-5 text-amber-400">NETFLIX CLONE</h1>
+              <div className="bg-gradient-to-r from-blue-500 to-red-500 bg-clip-text text-transparent text-center">
+                <strong>
+                  <h1 className="text-3xl py-5">NETFLIX CLONE</h1>
+                </strong>
+              </div>
+
               <h1 className="text-2xl lg:text-justify text-start py-5">
                 A clone of famous web application netflix.
               </h1>
