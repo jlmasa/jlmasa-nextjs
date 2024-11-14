@@ -11,11 +11,9 @@ const Education = () => {
             <h1 className="text-4xl py-2 text-green-400">WHO AM I</h1>
           </strong>
 
-          <div className="bg-gradient-to-r from-blue-500 to-red-500 bg-clip-text text-transparent pb-10 text-center px-10">
-            <h1 className="lg:text-5xl md:text-2xl text-lg font-bold pt-10">
-              I&apos;m John Lorenz Eldon R. Masa
-            </h1>
-          </div>
+          <h1 className="lg:text-5xl md:text-2xl text-lg font-bold pt-10">
+            I&apos;m John Lorenz Eldon R. Masa
+          </h1>
 
           <h1 className="lg:text-2xl text-base py-5 lg:w-[60vw] w-[80vw] text-center">
             A graduate of Bachelor of Science in Information Technology. And
